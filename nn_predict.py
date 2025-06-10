@@ -16,7 +16,7 @@ def softmax(x):
         exp_x = np.exp(x)
         return exp_x / np.sum(exp_x, axis=1, keepdims=True)
     else:
-        raise ValueError("Input to softmax must be 1D or 2D array")
+        raise ValueError("softmax input must be 1D or 2D")
 
 # === Flatten ===
 def flatten(x):
