@@ -1,9 +1,9 @@
 [
   {
-    "name": "dense_6",
+    "name": "dense_4",
     "type": "Dense",
     "config": {
-      "name": "dense_6",
+      "name": "dense_4",
       "trainable": true,
       "dtype": {
         "module": "keras",
@@ -36,15 +36,15 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_6_0",
-      "dense_6_1"
+      "dense_4_0",
+      "dense_4_1"
     ]
   },
   {
-    "name": "dense_7",
+    "name": "dense_5",
     "type": "Dense",
     "config": {
-      "name": "dense_7",
+      "name": "dense_5",
       "trainable": true,
       "dtype": {
         "module": "keras",
@@ -77,8 +77,8 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_7_0",
-      "dense_7_1"
+      "dense_5_0",
+      "dense_5_1"
     ]
   }
 ]
